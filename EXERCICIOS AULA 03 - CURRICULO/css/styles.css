@@ -1,0 +1,111 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/fundo.png);
+    background-attachment: fixed;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+header {
+    text-align: center;
+    font-style: italic;
+    color: black;
+    opacity: 1;
+}
+
+.destaque{
+    background: yellow;
+    font-size: 22px;
+}
+
+#form {
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    border: 2px;
+    border-style: outset;
+    border-color: black;
+    position: fixed;
+    left: 50%;
+    margin-left: -400px;
+}
+
+.itensForm {
+    background-color: unset;
+}
+
+#coment {
+    resize: vertical;
+}
+
+input:focus {
+    background-color: grey;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+.hobbies:hover {
+    border-style: inset;
+}
+
+.centralizar {
+    margin: auto auto;
+    width: 1030px;
+}
+.formacao, .dadosPessoais, .perfil, .cabecalho, .rodape  {
+    background-color:#C0C0C0;
+    width: 960px;
+    padding: 30px 30px 30px 30px;
+    margin: auto auto;
+    border: dotted 5px #696969;
+    margin-top: 20px; 
+}
+
+.links {
+    background-color:#C0C0C0;
+    border: dotted 5px #696969;
+    margin-top: 20px;
+    padding: 30px 30px 30px 30px;
+    margin: left;
+    width: 300px;
+    float: left;
+    height: 1200px;
+}
+
+.conteudo {
+    background-color:#C0C0C0;
+    box-sizing: border-box;
+    border: dotted 5px #696969;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    width: 630px;
+    float: right;
+}
+
+.rodape {
+    text-align: center;
+    display: inline-block;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO</title>
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id=form>
+        <div class="contatoForm">
+            <h1 class="contatoForm">Formulário de Contato</h1>
+        </div>
+        <div class="itensForm">
+            <label for="name">Nome:</label>
+            <input type="text" name="nome" required/>
+            <span><label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" required/>
+            </span>
+            
+            <div class="itensForm">
+                <br>
+                <label for="genero">Gênero:</label>
+                <input type="radio" name="genero" value="masculino">
+                <label for="genero">Masculino</label>
+                <input type="radio" name="genero" value="feminino">
+                <label for="genero">Feminino</label>
+                <input type="radio" name="genero" value="naoResponder">
+                <label for="genero">Prefiro não Responder</label>
+            </div>
+            
+            <div class="itensForm">
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" name="email" placeholder="user@email.com" required/>
+            </div>
+            <BR>
+            <div style="background-color: black;">
+                <br>
+            </div>
+            <br>
+            <div class="itensForm">
+                <label for="assunto">Assunto:</label>
+                <select name="assunto"> 
+                    <option value="Fn">Financeiro</option>
+                    <option value="Rh">Recursos Humanos</option>
+                    <option value="Dv">Dúvidas</option>
+                </select>
+                <br>
+                <br>
+                <label for="passatempos">Passatempos:</label>
+                <input type="checkbox" name="passatempos" value="leitura">
+                <label for="passatempos">Leitura</label>
+                <input type="checkbox" name="passatempos" value="esportes">
+                <label for="passatempos">Esportes</label>
+                <input type="checkbox" name="passatempos" value="jogos">
+                <label for="passatempos">Jogos</label>
+                <input type="checkbox" name="passatempos" value="musicas">
+                <label for="passatempos">Músicas</label>
+                <input type="checkbox" name="passatempos" value="estudos">
+                <label for="passatempos">Estudos</label>  
+            </div>
+            <br>
+            <div style="background-color: black;">
+                <br>
+            </div>
+
+            <div class="itensForm">
+                <br>
+                <label for="comentario">Comentarios:</label> 
+                <textarea id=coment name="comentario" cols="111"></textarea>
+            </div>
+            <br>
+            
+            <div class="itensForm">
+                <button type="submit">Enviar</button>
+                <span>
+                    <button type="reset">Excluir</button>
+                </span>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+#principal {
+    width: 960px;
+    height: 520px;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    margin-top: -200px;
+    left: 50%;
+    margin-left: -480px;
+}
+
+#menu {
+    width: 960px;
+    height: 60px;
+    background-color: orangered;
+    position: fixed;
+    left: 50%;
+    margin-left: -480px;
+    margin-top: 20px;
+    z-index: 3;
+}
+
+.itemSmartphone {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemTablet {
+    width: 150px;
+    height: 40px; 
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemComputador {
+    width: 150px;
+    height: 40px; 
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: turquoise;
+}
+
+#linha1Col1, #linha1Col2, #linha1Col3 {
+    width: 300px;
+    border-width: 10px;
+    height: 160px;
+    background-color: rgb(158, 154, 158);
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 0;
+}
+
+#linha2Col1, #linha2Col2, #linha2Col3 {
+    width: 300px;
+    border-width: 10px;
+    height: 160px;
+    background-color: rgb(158, 154, 158);
+    position: absolute;
+    top: 180px;
+    left: 15px;
+    z-index: 0;  
+}
+
+#linha3Col1, #linha3Col2, #linha3Col3 {
+    width: 300px;
+    border-width: 10px;
+    height: 160px;
+    background-color: rgb(158, 154, 158);
+    position: absolute;
+    top: 350px;
+    left: 15px;
+    z-index: 0;
+}
+
+#linha1Col2, #linha2Col2, #linha3Col2 {
+    top: 0px;
+    left: 315px;
+}
+#linha1Col3, #linha2Col3, #linha3Col3{
+    top: 0px;
+    left: 630px;
+}
+
+.desconto {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -2px;
+    left: 250px;
+    z-index: 2; 
+}
+
+.nome {
+    width: 300px;
+    height: 30px;
+    background-color: dimgrey;
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.saibaMais {
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 120px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    position: absolute;
+    top: -15px;
+    left: -80px;
+}
